@@ -27,7 +27,7 @@ open change-case.novaextension
 - [Dot Case](#dot-case)
 - [Header Case](#header-case)
 - [No Case](#no-case)
-- [Param / Kebab Case](#param-/-kebab-case)
+- [Param / Kebab Case](#param--kebab-case)
 - [Pascal Case](#pascal-case)
 - [Path Case](#path-case)
 - [Sentence Case](#sentence-case)
