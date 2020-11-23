@@ -56,7 +56,7 @@ A wrapper of [change-case](https://github.com/blakeembrey/change-case)
 "test string" => "test string"
 ```
 
-#### Param Case
+#### Param / Kebab Case
 
 > Transform into a lower cased string with dashes between words.
 
