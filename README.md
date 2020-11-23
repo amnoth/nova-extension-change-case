@@ -11,7 +11,9 @@ npm run build
 
 ## Install
 
-Open `change-case.novaextension`
+```bash
+open change-case.novaextension
+```
 
 ## License
 
