@@ -27,7 +27,7 @@ open change-case.novaextension
 - [Dot Case](#dot-case)
 - [Header Case](#header-case)
 - [No Case](#no-case)
-- [Param Case](#param-case)
+- [Param / Kebab Case](#param-/-kebab-case)
 - [Pascal Case](#pascal-case)
 - [Path Case](#path-case)
 - [Sentence Case](#sentence-case)
@@ -81,7 +81,7 @@ open change-case.novaextension
 "test string" => "test string"
 ```
 
-#### Param Case
+#### Param / Kebab Case
 
 > Transform into a lower cased string with dashes between words.
 
