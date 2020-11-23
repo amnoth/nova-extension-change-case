@@ -1,0 +1,92 @@
+{
+  "identifier": "tv.amnoth.changecase",
+  "name": "Change Case",
+  "organization": "621",
+  "description": "npm change-case wrapper",
+  "version": "1.0.0",
+  "repository": "https://github.com/amnoth/nova-extension-change-case",
+  "bugs": "https://github.com/amnoth/nova-extension-change-case/issues",
+  "license": "MIT",
+  "categories": ["commands"],
+
+  "main": "main.dist.js",
+
+  "activationEvents": [],
+
+  "entitlements": {},
+
+  "config": [
+    {
+      "key": "change-case.use-shadow-typing",
+      "title": "Shadow Typing after convert",
+      "description": "Start shadow typing at the end of the converted selections.",
+      "type": "boolean",
+      "default": false
+    }
+  ],
+
+  "commands": {
+    "editor": [
+      {
+        "title": "Convert to Camel Case",
+        "paletteTitle": "Convert to Camel Case: (camelCase)",
+        "command": "change-case.toCamelCase"
+      },
+      {
+        "title": "Convert to Capital Case",
+        "paletteTitle": "Convert to Capital Case: (Capital Case)",
+        "command": "change-case.toCapitalCase"
+      },
+      {
+        "title": "Convert to Constant Case",
+        "paletteTitle": "Convert to Constant Case: (CONSTANT_CASE)",
+        "command": "change-case.toConstantCase"
+      },
+      {
+        "title": "Convert to Dot Case",
+        "paletteTitle": "Convert to Dot Case: (dot.case)",
+        "command": "change-case.toDotCase"
+      },
+      {
+        "title": "Convert to Header Case",
+        "paletteTitle": "Convert to Header Case: (Header-Case)",
+        "command": "change-case.toHeaderCase"
+      },
+      {
+        "title": "Convert to No Case",
+        "paletteTitle": "Convert to No Case: (no case)",
+        "command": "change-case.toNoCase"
+      },
+      {
+        "title": "Convert to Param Case",
+        "paletteTitle": "Convert to Param Case: (param-case)",
+        "command": "change-case.toParamCase"
+      },
+      {
+        "title": "Convert to Kabeb Case",
+        "paletteTitle": "Convert to Kabeb Case: (kabeb-case)",
+        "command": "change-case.toParamCase"
+      },
+      {
+        "title": "Convert to Pascal Case",
+        "paletteTitle": "Convert to Pascal Case: (PascalCase)",
+        "command": "change-case.toPascalCase"
+      },
+      {
+        "title": "Convert to Path Case",
+        "paletteTitle": "Convert to Path Case: (path/case)",
+        "command": "change-case.toPathCase"
+      },
+      {
+        "title": "Convert to Sentence Case",
+        "paletteTitle": "Convert to Sentence Case: (Sentence case)",
+        "command": "change-case.toSentenceCase"
+      },
+      {
+        "title": "Convert to Snake Case",
+        "paletteTitle": "Convert to Snake Case: (snake_case)",
+        "command": "change-case.toSnakeCase"
+      }
+    ]
+  }
+}
